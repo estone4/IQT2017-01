@@ -5,7 +5,7 @@
 #include "DoublyLinkedList.h"
 
 #define MAX_SEL_LENGTH 6 			//maximum size of the user input 
-#define CMD_PREFIX 3 			//size of the first [0:3] chars in a command, used to determine the correct type of command (-ins or -del)
+#define CMD_PREFIX 3 				//size of the first [0:3] chars in a command, used to determine the correct type of command (-ins or -del)
 
 /*C Programming - Evaluation Exam 
 This is a doubly linked-list intended to assess the examinee's capabilities with loops, if-else conditions, functions, pointers, and dynamic memory
@@ -320,7 +320,6 @@ void DeleteAtPosition(int pos)
 	//RETURN: None
 
 	struct Node * currentNode_ptr = NULL;
-	//struct Node * delNode_ptr = NULL;
 	int i = 0;
 	currentNode_ptr = headNode;
 
